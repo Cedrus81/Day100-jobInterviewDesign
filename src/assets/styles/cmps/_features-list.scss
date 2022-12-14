@@ -1,0 +1,19 @@
+.feature-list-container{
+    margin-top: em(170px);
+    .feature-list{
+        gap: em(90px);
+        list-style: none;
+        padding: 0;
+        margin: auto;
+        display: grid;
+        grid-template-columns: em(350px) em(350px);
+        grid-template-rows: auto;
+        &-item{
+            text-align: center;
+            & img{
+                max-height: em(84px);
+                object-fit: contain;
+            }
+        }
+    }
+}

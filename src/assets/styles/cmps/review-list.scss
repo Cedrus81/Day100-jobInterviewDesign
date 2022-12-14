@@ -1,0 +1,13 @@
+.review-list{
+    max-width: 1235px;
+    gap: em(40px);
+    margin: auto;
+    margin-top: em(180px);
+    .review-preview{
+        width: 360px;
+        height: 200px;
+        box-shadow: 5px 5px 8px 4px rgba(56, 56, 56, 0.1);
+        border-radius: 4px;
+        background-color: #202a3c;
+    }
+}

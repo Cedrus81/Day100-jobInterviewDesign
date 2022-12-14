@@ -1,0 +1,17 @@
+.stay-productive{
+    gap: em(57px);
+    max-width: 1235px;
+    margin: auto;
+    margin-top: em(137px);
+    & article{
+        flex: 1;
+        & h1{
+        font-size: 40px;
+        line-height: 50px;
+        }
+        & p{
+            font-size: 16px;
+            line-height: 24px;
+        }
+    }
+}
